@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-int arr[50],rev[50],i,j,n;
+int arr[50],i,n;
 printf("Enter the number of elements in the array\n");
 scanf("%d",&n);
 printf("Enter the array elements\n");
@@ -9,7 +9,6 @@ for(i=0;i<n;i++)
 {
 scanf("%d",&arr[i]);
 }
-
 reverse_array(arr,n);
 }
 
